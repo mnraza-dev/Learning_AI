@@ -52,6 +52,10 @@ print(x)
 print(a in [1,2,3,4,5]) # In
 print(a not in [1,2,3,4,5]) # Not In
 
+# Identity Operators
+print(a is b) # Is
+print(a is not b) # Is Not
+
 
 
 
