@@ -33,6 +33,16 @@ my_tuple = (1,2,3,4,5) #tuple (1,2,3,4,5)
 print(my_tuple)
 print(type(my_tuple))
 
+# Set - unordered, mutable, no duplicates
+my_set = {1,2,3,4,5} #set {1,2,3,4,5}
+print(my_set)
+print(type(my_set))
+
+# frozenset - unordered, immutable, no duplicates
+my_frozenset = frozenset({1,2,3,4,5}) #frozenset {1,2,3,4,5}
+print(my_frozenset)
+print(type(my_frozenset))
+
 
 
 
