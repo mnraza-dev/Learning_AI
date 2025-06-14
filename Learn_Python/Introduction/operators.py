@@ -8,10 +8,15 @@ print(a + b) # Addition
 print(a - b) # Subtraction
 print(a * b) # Multiplication
 print(a / b) # Division
+print(a // b) # Floor Division
 print(a % b) # Modulus
 print(a ** b) # Exponentiation
 
-result = (a + b) * 2 
-print(result)
+# Comparison Operators
+print(a == b) # Equal
+print(a != b) # Not Equal
+print(a > b) # Greater Than
+print(a < b) # Less Than
+print(a >= b) # Greater Than or Equal To
+print(a <= b) # Less Than or Equal To
 
-# Assignment Operators
