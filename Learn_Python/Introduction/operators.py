@@ -20,6 +20,16 @@ print(a < b) # Less Than
 print(a >= b) # Greater Than or Equal To
 print(a <= b) # Less Than or Equal To
 
+# Logical Operators
+"""
+and - all conditions must be True => True, False otherwise
+or - at least one condition must be True => True, False otherwise
+not - single operand is False => True, True => False
+"""
+age = 18
+print(a>5 and b<15) # And
+print(a<1 or b==20) # Or
+print(not a==10) # Not
 
 # Assignment Operators
 x = 10
@@ -37,6 +47,13 @@ print(x)
 x = 10
 x /= 5
 print(x)
+
+# Membership Operators
+print(a in [1,2,3,4,5]) # In
+print(a not in [1,2,3,4,5]) # Not In
+
+
+
 
 
 
