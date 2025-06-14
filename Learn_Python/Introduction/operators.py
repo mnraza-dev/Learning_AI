@@ -20,3 +20,23 @@ print(a < b) # Less Than
 print(a >= b) # Greater Than or Equal To
 print(a <= b) # Less Than or Equal To
 
+
+# Assignment Operators
+x = 10
+x += 5
+print(x)
+
+x = 10
+x -= 5
+print(x)
+
+x = 10
+x *= 5
+print(x)
+
+x = 10
+x /= 5
+print(x)
+
+
+
