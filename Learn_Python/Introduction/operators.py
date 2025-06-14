@@ -56,6 +56,17 @@ print(a not in [1,2,3,4,5]) # Not In
 print(a is b) # Is
 print(a is not b) # Is Not
 
+# Bitwise Operators
+print(a & b) # And
+print(a | b) # Or
+print(a ^ b) # Xor
+print(~a) # Not
+print(a << b) # Left Shift
+print(a >> b) # Right Shift
+
+
+
+
 
 
 
