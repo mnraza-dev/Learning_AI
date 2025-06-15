@@ -23,6 +23,3 @@ print(a[0])   #Positive indexing
 print(a[-1])  #Negative indexing
 
 3. iterable
-
-
-
