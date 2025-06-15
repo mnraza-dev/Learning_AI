@@ -1,5 +1,29 @@
 # Operators
+
+# Arithmetic Operators - Math operations
+# +, -, *, /, //, %, **
+
+# Comparison Operators - Compare two values
+# ==, !=, >, <, >=, <=
+
+# Logical Operators - Combine multiple conditions
+# and, or, not
+
+# Assignment Operators - Assign a value to a variable
+# =, +=, -=, *=, /=, %=, **=
+
+# Identity Operators - Check if two values are the same [Object memory location]
+# is, is not
+
+# Membership Operators - Check if a value is in a sequence
+# in, not in
+
+# Bitwise Operators - Bitwise operations
+# &, |, ^, ~, <<, >>    
+
+# Operator Precedence - The order of operations
 # PEMDAS - Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)
+
 a = 5
 b = 10
 
@@ -48,23 +72,21 @@ x = 10
 x /= 5
 print(x)
 
-# Membership Operators
-print(a in [1,2,3,4,5]) # In
-print(a not in [1,2,3,4,5]) # Not In
-
 # Identity Operators
 print(a is b) # Is
 print(a is not b) # Is Not
 
+# Membership Operators
+print(a in [1,2,3,4,5]) # In
+print(a not in [1,2,3,4,5]) # Not In
+
 # Bitwise Operators
-print(a & b) # And
-print(a | b) # Or
-print(a ^ b) # Xor
-print(~a) # Not
-print(a << b) # Left Shift
-print(a >> b) # Right Shift
-
-
+print(a & b) # Bitwise AND
+print(a | b) # Bitwise OR
+print(a ^ b) # Bitwise XOR
+print(~a) # Bitwise NOT
+print(a << b) # Bitwise Left Shift
+print(a >> b) # Bitwise Right Shift
 
 
 
